@@ -1,0 +1,29 @@
+.card {
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+:deep(.p-carousel) {
+  border-radius: 8px;
+}
+
+:deep(.p-carousel .p-carousel-item) {
+  padding: 0.5rem;
+}
+
+:deep(.p-carousel-content) {
+  gap: 1rem;
+}
+
+.product-item {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-4px);
+}
