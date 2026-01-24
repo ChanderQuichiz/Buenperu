@@ -1,0 +1,12 @@
+<p-table [value]="matches" [scrollable]="true" scrollHeight="400px" >
+        <ng-template #header>
+            <tr>
+                <th class="text-left">Recent matches</th>
+            </tr>
+        </ng-template>
+        <ng-template #body let-match>
+            <tr class="hover:bg-gray-50">
+                <td>{{ match.date }}</td>
+                 </tr>
+        </ng-template>
+    </p-table>

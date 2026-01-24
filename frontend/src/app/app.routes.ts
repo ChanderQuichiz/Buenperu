@@ -16,5 +16,9 @@ export const routes: Routes = [
     {
         path: 'leagues',
         loadComponent: () => import('./pages/home/leagues/leagues').then(m => m.Leagues)
+    },
+    {
+        path: 'search',
+        loadComponent: () => import('./pages/search/search').then(m => m.Search)
     }
 ];
