@@ -1,0 +1,116 @@
+
+<div class="p-4">
+    <h2 class="text-2xl font-bold mb-4">Teams Management</h2>
+<div class="card">
+            <p-button (click)="showDialog()" label="New Event +" />
+            <p-dialog header="Edit Event" [modal]="true" [(visible)]="visible" [style]="{ width: '60rem' }">
+                <span class="p-text-secondary block mb-8">Complete event information.</span>
+                <!--justo abajo -->
+                <div class="grid sm:grid-cols-[1fr_auto_1fr] gap-8" >
+          <div>
+            <h3 class="font-bold text-lg mb-4">Event Information</h3>
+          <div class="grid grid-cols-2 gap-2" >
+            
+                      <div class="flex flex-col gap-4 mb-4">
+                    <label for="name" class="font-semibold w-32">Name</label>
+                    <input pInputText id="name" class="flex-auto" autocomplete="off" />
+                </div>
+
+                <div class="flex flex-col gap-4 mb-4">
+                    <label for="eventSrc" class="font-semibold w-32">Event Source</label>
+                    <input pInputText id="eventSrc" class="flex-auto" autocomplete="off" />
+                </div>
+          </div>
+
+      
+          <div class="grid grid-cols-2 gap-2" >
+
+                <div class="flex flex-col gap-4 mb-4">
+                    <label for="eventType" class="font-semibold w-32">Event Type</label>
+                    <p-select 
+                        id="eventType" 
+                        [options]="eventTypes" 
+                        optionLabel="label" 
+                        optionValue="value"
+                        placeholder="Select Type" 
+                        class="flex-auto" />
+                </div>
+
+                <div class="flex flex-col gap-4 mb-4">
+                    <label for="sportType" class="font-semibold w-32">Sport Type</label>
+                    <input pInputText id="sportType" class="flex-auto" autocomplete="off" />
+                </div>
+</div>
+          <div class="grid grid-cols-2 gap-2" >
+
+                <div class="flex flex-col gap-4 mb-4">
+                    <label for="format" class="font-semibold w-32">Format</label>
+                    <input pInputText id="format" class="flex-auto" autocomplete="off" />
+                </div>
+
+                <div class="flex flex-col gap-4 mb-4">
+                    <label for="category" class="font-semibold w-32">Category</label>
+                    <input pInputText id="category" class="flex-auto" autocomplete="off" />
+                </div>
+                </div>
+                <div class=" grid gap-2 grid-cols-2">
+                <div class="flex flex-col gap-4 mb-4">
+                    <label for="startDate" class="font-semibold w-32">Start Date</label>
+                    <p-datepicker id="startDate" class="flex-auto" />
+                </div>
+
+                <div class="flex flex-col gap-4 mb-4">
+                    <label for="endDate" class="font-semibold w-32">End Date</label>
+                    <p-datepicker id="endDate" class="flex-auto" />
+                </div>
+                </div>
+          </div>
+          <div class="border-l border-gray-300"></div>
+<div>
+            <h3 class="font-bold text-lg mb-4">Event Rules</h3>
+                <div class="grid grid-cols-3 gap-2">
+ <div class="flex  gap-4 mb-4 flex-col">
+                    <label for="pointsWin" class="font-semibold w-32">Points Win</label>
+                    <input pInputText id="pointsWin" type="number" class="flex-auto" autocomplete="off" />
+                </div>
+
+                <div class="flex  gap-4 mb-4 flex-col">
+                    <label for="pointsDraw" class="font-semibold w-32">Points Draw</label>
+                    <input pInputText id="pointsDraw" type="number" class="flex-auto" autocomplete="off" />
+                </div>
+
+                <div class="flex  gap-4 mb-4 flex-col">
+                    <label for="pointsLoss" class="font-semibold w-32">Points Loss</label>
+                    <input pInputText id="pointsLoss" type="number" class="flex-auto" autocomplete="off" />
+                </div>
+                </div>
+               
+          <div class="grid grid-cols-2 gap-2" >
+
+                <div class="flex flex-col gap-4 mb-8">
+                    <label for="maxTeams" class="font-semibold w-32">Max Teams</label>
+                    <input pInputText id="maxTeams" type="number" class="flex-auto" autocomplete="off" />
+                </div>
+
+
+                <div class="flex flex-col gap-4 mb-8">
+                    <label for="status" class="font-semibold w-32">Status</label>
+                    <p-select 
+                        id="status" 
+                        [options]="statusOptions" 
+                        optionLabel="label" 
+                        optionValue="value"
+                        placeholder="Select Status" 
+                        class="flex-auto" />
+                </div>
+</div>
+                </div>
+</div>
+
+                <div class="flex justify-end gap-2">
+                    <p-button label="Cancel" severity="secondary" (click)="visible = false" />
+                    <p-button label="Save" (click)="visible = false" />
+                </div>
+            </p-dialog>
+        </div>
+</div>

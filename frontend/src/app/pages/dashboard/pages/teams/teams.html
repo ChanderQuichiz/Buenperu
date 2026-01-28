@@ -1,0 +1,44 @@
+
+<div class="p-4">
+    <h2 class="text-2xl font-bold mb-4">Teams Management</h2>
+<div class="card">
+            <p-button (click)="showDialog()" label="New Team +" />
+            <p-dialog header="Edit Team" [modal]="true" [(visible)]="visible" [style]="{ width: '35rem' }">
+                <span class="p-text-secondary block mb-8">Complete Team information.</span>
+                <!--justo abajo -->
+
+                        <h3 class="font-bold text-lg mb-4">Team Information</h3>
+                   
+                        <div class="grid grid-cols-2 gap-2">
+           <div class="flex flex-col gap-4 mb-4">
+                            <label for="teamName" class="font-semibold w-32">Team Name</label>
+                            <input pInputText id="teamName" class="flex-auto" autocomplete="off" />
+                        </div>
+   <div class="flex flex-col gap-4 mb-4">
+                            <label for="iconSrc" class="font-semibold w-32">Icon Source</label>
+                            <input pInputText id="iconSrc" class="flex-auto" autocomplete="off" />
+                        </div>
+                        </div>
+             
+                        <div class="grid grid-cols-2 gap-2">
+
+                                               <div class="flex flex-col gap-4 mb-4">
+                            <label for="district" class="font-semibold w-32">District</label>
+                            <input pInputText id="district" class="flex-auto" autocomplete="off" />
+                        </div>
+
+                        <div class="flex flex-col gap-4 mb-4">
+                            <label for="category" class="font-semibold w-32">Category</label>
+                            <input pInputText id="category" class="flex-auto" autocomplete="off" />
+                        </div>
+                        </div>
+
+
+            
+                <div class="flex justify-end gap-2">
+                    <p-button label="Cancel" severity="secondary" (click)="visible = false" />
+                    <p-button label="Save" (click)="visible = false" />
+                </div>
+            </p-dialog>
+        </div>
+</div>

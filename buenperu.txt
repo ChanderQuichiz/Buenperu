@@ -1,28 +1,27 @@
 Antecedentes
-BuenPeru es una empresa que se dedica a difundir el deporte en el peru,
-durante uno de sus estudios realizados, descubrio que en los barrios de lima es muy comun 
-los torneos locales , y por eso tiene como objetivo facilitar esa tarea de organizar y difundir el deoprte
-de manera automatizada
+BuenPeru es una empresa dedicada a difundir el deporte en el Perú.
+Durante uno de sus estudios, descubrió que en los barrios de Lima es muy común la realización de torneos locales, por lo que tiene como objetivo facilitar la organización y difusión del deporte de manera automatizada.
 
-El flujo esperado es el siguiente:
+Flujo típico del negocio
 
-El usuario se registra con uno de los siguientes roles: organizador, árbitro o usuario.
+Los equipos contactan con el organizador de eventos
 
-El organizador crea un evento y selecciona su tipo: torneo, liga o amistoso.
+El organizador define el tipo de evento: liga, torneo o amistoso.
 
-El organizador configura el evento según su tipo:
+Define las reglas del evento
 
-Amistoso: crea el encuentro y asigna un árbitro.
+Registra los equipos que participaran en el evento
 
-Torneo: define la cantidad de equipos, el sistema de puntuación y el formato (eliminación directa).
+Establece fechas, horarios y lugares para los partidos.
 
-Liga: define equipos y sistema de puntuación (si decides incluirla).
+Determina la cantidad máxima de equipos permitidos.
 
-El organizador registra los equipos participantes.
+Organiza el calendario de partidos.
 
-El sistema gestiona el desarrollo del evento según su configuración.
+Organizador elige el arbitro a cargo para el partido.
 
-Los usuarios pueden consultar eventos recientes y próximos.
+Los árbitros registran los resultados en hojas o planillas.
 
-En cada seccion se podra generar reporte de cada evento realizado
-como equipo gadnador, con mas goles, pimeros 5, mas veces campeon etc.
+El organizer calcula manualmente los puntos, tablas de posiciones
+
+El organizador publica los resultados al público.

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DrawerPositionDemo } from './drawer-position-demo';
+import { Events } from './events';
 
-describe('DrawerPositionDemo', () => {
-  let component: DrawerPositionDemo;
-  let fixture: ComponentFixture<DrawerPositionDemo>;
+describe('Events', () => {
+  let component: Events;
+  let fixture: ComponentFixture<Events>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DrawerPositionDemo]
+      imports: [Events]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DrawerPositionDemo);
+    fixture = TestBed.createComponent(Events);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

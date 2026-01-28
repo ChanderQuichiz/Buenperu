@@ -1,12 +1,25 @@
 <p-table [value]="matches" [scrollable]="true" scrollHeight="400px" >
-        <ng-template #header>
-            <tr>
+        <ng-template #header >
+            <tr >
                 <th class="text-left">Recent matches</th>
             </tr>
         </ng-template>
         <ng-template #body let-match>
             <tr class="hover:bg-gray-50">
-                <td>{{ match.date }}</td>
+                <td>
+                        <div class="grid grid-cols-[2fr_6fr_2fr] ">
+                             <div class="m-auto ">
+                                            <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png" class="h-8" alt="">
+                                            <p class="text-center text-[10px] ">Barcelona</p>
+                    </div>
+                    <div class="text-2xl flex flex-row justify-evenly  my-auto"><div>2</div><div>-</div><div>1</div></div>          <div class="m-auto">
+                                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/960px-Real_Madrid_CF.svg.png" class="h-8" alt="">
+                                            <p class="text-center text-[10px] ">Real Madrid</p>
+                    </div>
+                    </div>
+               
+
+                </td>
                  </tr>
         </ng-template>
     </p-table>
