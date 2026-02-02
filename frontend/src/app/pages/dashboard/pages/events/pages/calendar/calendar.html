@@ -1,0 +1,137 @@
+<div class="pt-10">
+<div class="text-2xl font-bold mb-4">Event Name : Calendar</div>
+<div class="grid lg:grid-cols-[3fr_4fr] gap-8">
+
+    <div>
+        <div>Register Teams</div>   
+        <div class="grid sm:grid-cols-[3fr_2fr] gap-1">    
+         <p-select [options]="countries" [(ngModel)]="selectedCountry" optionLabel="name" [filter]="true" filterBy="name" [showClear]="true" placeholder="Select a Country" class="min-w-full">
+                <ng-template #selectedItem let-selectedOption>
+                    <div class="flex items-center gap-2">
+                        <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + selectedCountry.code.toLowerCase()" style="width: 18px" />
+                        <div>{{ selectedOption.name }}</div>
+                    </div>
+                </ng-template>
+                <ng-template let-country #item>
+                    <div class="flex items-center gap-2">
+                        <img src="https://primefaces.org/cdn/primeng/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + country.code.toLowerCase()" style="width: 18px" />
+                        <div>{{ country.name }}</div>
+                    </div>
+                </ng-template>
+            </p-select>
+            <p-button label="Add Team" icon="pi pi-plus"/>
+   </div>
+<p-card class="mt-4">
+  <p-table [value]="products" >
+                <ng-template #header>
+                    <tr>
+                        <th>Code</th>
+    
+                    </tr>
+                </ng-template>
+                <ng-template #body let-product>
+                    <tr>
+                        <td>{{ product.code }}</td>
+                    </tr>
+                </ng-template>
+            </p-table>
+</p-card>
+
+
+   </div>
+   <div>
+    <div>Register Matches</div>
+    <div class="grid sm:grid-cols-[3fr_2fr] gap-1">
+<input pInputText placeholder="Find macth" class="min-w-full mb-4"/>
+    <p-button (click)="showDialog()" label="Add Match" icon="pi pi-plus" />
+            <p-dialog header="Edit Match" [modal]="true" [(visible)]="visible" [style]="{ width: '35rem' }">
+                <span class="p-text-secondary block mb-8">Update your information.</span>
+
+                <div class="grid grid-cols-[4fr_1fr] gap-2">
+                         <div class="flex flex-col gap-4 mb-4">
+                    <label for="username" class="font-semibold w-24">Team 1</label>
+                    <p-select [options]="teams" placeholder="Select a Team" class="flex-auto"/>
+                </div>
+                      
+   <div class="flex flex-col gap-4 mb-4">
+                    <label for="username" class="font-semibold w-auto">Score</label>
+                   <p-inputnumber [showButtons]="true" buttonLayout="horizontal" spinnerMode="horizontal" inputId="horizontal" [inputStyle]="{ width: '3rem' }">
+                <ng-template #incrementbuttonicon>
+                    <span class="pi pi-plus"></span>
+                </ng-template>
+                <ng-template #decrementbuttonicon>
+                    <span class="pi pi-minus"></span>
+                </ng-template>
+            </p-inputnumber>
+                </div>
+
+                </div>
+               <div class="grid grid-cols-[4fr_1fr] gap-2">
+                      
+
+          <div class="flex flex-col gap-4 mb-4">
+                    <label for="username" class="font-semibold w-24">Team 2</label>
+                    <p-select [options]="teams" placeholder="Select a Team" class="flex-auto"/>
+                </div>
+
+                                <div class="flex flex-col gap-4 mb-4">
+                    <label for="username" class="font-semibold w-24">Score</label>
+                    <p-inputnumber [showButtons]="true" buttonLayout="horizontal" spinnerMode="horizontal" inputId="horizontal" [inputStyle]="{ width: '3rem' }">
+                <ng-template #incrementbuttonicon>
+                    <span class="pi pi-plus"></span>
+                </ng-template>
+                <ng-template #decrementbuttonicon>
+                    <span class="pi pi-minus"></span>
+                </ng-template>
+            </p-inputnumber>
+                </div>
+                </div>
+           
+
+
+                <div class="flex flex-col gap-4 mb-8">
+                    <label for="email" class="font-semibold w-24">Location</label>
+                    <input pInputText id="text" class="flex-auto" autocomplete="off" />
+                </div>
+                    <div class="flex flex-col gap-4 mb-4">
+                    <label for="username" class="font-semibold w-24">Match Date</label>
+                    <p-datepicker class="flex-auto" placeholder="Select Date"/>
+                </div>
+                     
+                 <div class="grid grid-cols-2 gap-2">
+                        
+                            <div class="flex flex-col gap-4 mb-4">
+                    <label for="username" class="font-semibold w-24">Playroll</label>
+                    <p-select [options]="playrollOptions" placeholder="Select a Payroll" class="flex-auto"/>
+                </div> 
+                 <div class="flex flex-col gap-4 mb-4">
+                    <label for="username" class="font-semibold w-24">Status</label>
+                    <p-select [options]="statusOptions" placeholder="Select a Status" class="flex-auto"/>
+                </div>
+                </div>
+                 
+                <div class="flex justify-end gap-2">
+                    <p-button label="Cancel" severity="secondary" (click)="visible = false" />
+                    <p-button label="Save" (click)="visible = false" />
+                </div>
+            </p-dialog>
+    </div>
+     <p-card>
+       <p-table [value]="products" >
+                <ng-template #header>
+                    <tr>
+                        <th>Code</th>
+    
+                    </tr>
+                </ng-template>
+                <ng-template #body let-product>
+                    <tr>
+                        <td>{{ product.code }}</td>
+                    </tr>
+                </ng-template>
+            </p-table>
+     </p-card>
+ 
+            </div>
+    </div>
+</div>

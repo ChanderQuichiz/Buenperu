@@ -7,8 +7,8 @@ CREATE TABLE accounts (
     last_name VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
-    role ENUM('admin','organizer','referee') NOT NULL,
-    status ENUM('pending','active','banned') DEFAULT 'pending'
+    phone_number VARCHAR(10) NOT NULL,
+    role ENUM('admin','organizer','referee') NOT NULL
 );
 
 CREATE TABLE events (
@@ -17,7 +17,7 @@ CREATE TABLE events (
     event_src VARCHAR(255) NOT NULL,
     event_type ENUM('league','tournament','friendly') NOT NULL,
     sport_type VARCHAR(50),
-    format VARCHAR(50),
+    district VARCHAR(50),
     category VARCHAR(50),
     start_date DATE NOT NULL,
     end_date DATE,
@@ -61,11 +61,7 @@ CREATE TABLE matchs (
     match_date DATETIME NOT NULL,
     location VARCHAR(150),
     status ENUM('scheduled','in_progress','completed','canceled') DEFAULT 'scheduled',
-    round VARCHAR(50),
-    bracket_position INT,
-    winner_team_id INT,
-    next_match_id INT,
-    next_match_slot TINYINT,
+    winner_team_id INT
     referee_id INT,
     FOREIGN KEY (event_id) REFERENCES events(event_id),
     FOREIGN KEY (winner_team_id) REFERENCES teams(team_id),
@@ -78,7 +74,6 @@ CREATE TABLE matchs_teams (
     match_id INT NOT NULL,
     team_id INT NOT NULL,
     score INT DEFAULT 0,
-    is_home BOOLEAN DEFAULT FALSE,
     FOREIGN KEY (match_id) REFERENCES matchs(match_id),
     FOREIGN KEY (team_id) REFERENCES teams(team_id),
     UNIQUE (match_id, team_id)

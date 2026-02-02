@@ -1,5 +1,5 @@
 
-<div class="p-4">
+<div class="pt-10">
     <h2 class="text-2xl font-bold mb-4">Teams Management</h2>
 <div class="card">
             <p-button (click)="showDialog()" label="New Team +" />
@@ -12,11 +12,11 @@
                         <div class="grid grid-cols-2 gap-2">
            <div class="flex flex-col gap-4 mb-4">
                             <label for="teamName" class="font-semibold w-32">Team Name</label>
-                            <input pInputText id="teamName" class="flex-auto" autocomplete="off" />
+                            <input pInputText id="teamName" class="flex-auto" autocomplete="off" (change)="writeRequest($event)" />
                         </div>
    <div class="flex flex-col gap-4 mb-4">
                             <label for="iconSrc" class="font-semibold w-32">Icon Source</label>
-                            <input pInputText id="iconSrc" class="flex-auto" autocomplete="off" />
+                            <input pInputText id="iconSrc" class="flex-auto" autocomplete="off" placeholder="http://example.jpg" (change)="writeRequest($event)" />
                         </div>
                         </div>
              
@@ -24,12 +24,12 @@
 
                                                <div class="flex flex-col gap-4 mb-4">
                             <label for="district" class="font-semibold w-32">District</label>
-                            <input pInputText id="district" class="flex-auto" autocomplete="off" />
+                            <p-select placeholder="select a District" [options]="distrities"/>
                         </div>
 
                         <div class="flex flex-col gap-4 mb-4">
-                            <label for="category" class="font-semibold w-32">Category</label>
-                            <input pInputText id="category" class="flex-auto" autocomplete="off" />
+                            <label for="category" class="font-semibold w-32">Sport type</label>
+                            <p-select placeholder="select a Sport type" [options]="sportTypes"/>
                         </div>
                         </div>
 

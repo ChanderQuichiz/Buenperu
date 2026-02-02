@@ -1,6 +1,6 @@
 
-<div class="p-4">
-    <h2 class="text-2xl font-bold mb-4">Teams Management</h2>
+<div class="pt-10">
+    <h2 class="text-2xl font-bold mb-4">Events Management</h2>
 <div class="card">
             <p-button (click)="showDialog()" label="New Event +" />
             <p-dialog header="Edit Event" [modal]="true" [(visible)]="visible" [style]="{ width: '60rem' }">
@@ -38,19 +38,32 @@
 
                 <div class="flex flex-col gap-4 mb-4">
                     <label for="sportType" class="font-semibold w-32">Sport Type</label>
-                    <input pInputText id="sportType" class="flex-auto" autocomplete="off" />
+                    <p-select 
+                        id="sportType" 
+                        [options]="sportTypes" 
+                        placeholder="Select Sport" 
+                        class="flex-auto" />
                 </div>
 </div>
           <div class="grid grid-cols-2 gap-2" >
 
                 <div class="flex flex-col gap-4 mb-4">
-                    <label for="format" class="font-semibold w-32">Format</label>
-                    <input pInputText id="format" class="flex-auto" autocomplete="off" />
+                    <label for="district" class="font-semibold w-32">District</label>
+                    <p-select 
+                        id="district" 
+                        [options]="distrities" 
+                    
+                        placeholder="Select a District" 
+                        class="flex-auto" />
                 </div>
 
                 <div class="flex flex-col gap-4 mb-4">
                     <label for="category" class="font-semibold w-32">Category</label>
-                    <input pInputText id="category" class="flex-auto" autocomplete="off" />
+                    <p-select 
+                        id="category" 
+                        [options]="categories" 
+                        placeholder="Select Category" 
+                        class="flex-auto" />
                 </div>
                 </div>
                 <div class=" grid gap-2 grid-cols-2">

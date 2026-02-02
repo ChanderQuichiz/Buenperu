@@ -53,10 +53,10 @@ items: MenuItem[] | undefined;
                         routerLink: ['/dashboard/settings']
                     },
                     {
-                        label: 'Messages',
+                        label: 'Requests',
                         icon: 'pi pi-inbox',
                         badge: '2',
-                        routerLink: ['/dashboard/messages']
+                        routerLink: ['/dashboard/requests']
                     },
                     {
                         label: 'Logout',

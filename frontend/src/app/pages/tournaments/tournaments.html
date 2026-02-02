@@ -1,9 +1,18 @@
 <app-header></app-header>
-<div class="grid [200px]:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 gap-2 ">
- <div class="card">
+<div class="px-4 pt-4 bg-neutral-300">
+<div class="flex flex-row justify-between bg-neutral-300">
+<div class="flex text-2xl px-2 rounded-4xl flex-row bg-white"><img src="logo.png" class="h-14" alt=""><span class="pt-2 font-semibold text-neutral-700">Tournament name</span> </div> 
+<div class="flex flex-row rounded-4xl bg-white"><span class="pt-3 gap-1 flex flex-row px-4"><div class="bg-green-500 rounded-full mt-1 h-4 w-4"></div> Active</span></div> 
+</div>
+
+
+<div class="grid bg-neutral-300 [200px]:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 gap-2 ">
+ 
+        <div class="card">
         <app-recent-matches></app-recent-matches>
 
  </div>
+
     <div class="card">
             <app-recent-matches></app-recent-matches>
     </div>
@@ -15,5 +24,6 @@
 <app-recent-matches></app-recent-matches>
     </div>
 
+</div>
 </div>
 <app-footer></app-footer>

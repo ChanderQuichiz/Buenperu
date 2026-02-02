@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>110.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202504251049</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 564363d2-de49-4e67-befe-fb0819e9dd1c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">eventos</_name>
+			<_modifiedTimeWeak type="a">7.28.2021::5:43:54</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Arquitectura de analisis</_hname>
+					<_hid type="a">GUID 0e9d1006-d34b-4507-bda9-0c410efb11f8</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">7.28.2021::6:40:21</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">7.28.2021::5:43:54</weakCGTime>
+			<strongCGTime type="a">7.28.2021::7:51:10</strongCGTime>
+			<_defaultComposite type="s">GUID 59d31e7b-24e4-4c54-84f1-b959764cfce1</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID d79d3718-1e62-40c0-8f17-8d8598fa8edc</value>
+				<value>GUID 5a5d9db0-29ce-40bb-84e0-3593f04adde0</value>
+				<value>GUID 59d31e7b-24e4-4c54-84f1-b959764cfce1</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID d79d3718-1e62-40c0-8f17-8d8598fa8edc</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">usuarios</_name>
+			<_modifiedTimeWeak type="a">7.28.2021::5:43:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.28.2021::5:43:43</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\usuarios.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">usuarios</_hname>
+					<_hid type="a">GUID bab7aaa7-a2c8-4c82-82bf-0300a4e6f489</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 564363d2-de49-4e67-befe-fb0819e9dd1c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 5a5d9db0-29ce-40bb-84e0-3593f04adde0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">equipos</_name>
+			<_modifiedTimeWeak type="a">7.28.2021::5:43:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.28.2021::5:43:54</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\equipos.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">equipos</_hname>
+					<_hid type="a">GUID 98616e9c-eb76-433d-9c54-0cdb5e1d8a82</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 564363d2-de49-4e67-befe-fb0819e9dd1c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 59d31e7b-24e4-4c54-84f1-b959764cfce1</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

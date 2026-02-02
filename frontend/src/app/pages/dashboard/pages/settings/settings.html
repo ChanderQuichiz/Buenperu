@@ -1,0 +1,42 @@
+<div class="flex flex-col gap-8 pt-10">
+<h3 class="font-bold text-2xl">Admin Information</h3>
+<div class="grid sm:grid-cols-2 gap-4">
+<div class="flex flex-col gap-2">
+<label for="firstName">First name</label>
+<input type="text" pInputText/>
+</div>
+
+<div class="flex flex-col gap-2">
+<label for="lastName">Last name</label>
+<input type="text" pInputText/>
+</div>
+<div class="flex flex-col gap-2">
+<label for="phone">Phone</label>
+<input type="text" pInputText/>
+</div>
+<div class="flex flex-col gap-2">
+<label for="district">District</label>
+<p-select [options]="distrities" [(ngModel)]="selectedDistrict"  placeholder="Select a District" [style]="{width: '100%'}"/>
+</div>
+
+<div class="flex flex-col gap-2">
+<label for="email">Email</label>
+<input type="text" pInputText/>
+</div>
+
+<div class="flex flex-col gap-2">
+<label for="password">Password</label>
+<input type="text" pInputText/>
+</div>
+
+
+
+
+</div>
+    <button class="max-w-[390px]" pButton>
+                <i class="pi pi-check" pButtonIcon></i>
+                <span pButtonLabel>Save</span>
+            </button>
+  
+
+</div>

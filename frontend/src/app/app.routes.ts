@@ -19,18 +19,20 @@ export const routes: Routes = [
     },
     {
         path: 'search',
-        loadComponent: () => import('./pages/search/search').then(m => m.Search)
+        loadChildren: () => import('./pages/search/search.routes').then(m => m.routes)
+    },
+
+    {
+        path: 'dashboard',
+        loadChildren: () => import('./pages/dashboard/dashboard.routes').then(m => m.routes)
     },
     {
         path: 'tournaments',
         loadComponent: () => import('./pages/tournaments/tournaments').then(m => m.Tournaments)
     },
     {
-        path: 'dashboard',
-        loadChildren: () => import('./pages/dashboard/dashboard.routes').then(m => m.routes)
-    },
-    {
-        path: 'leagues',
-        loadComponent: () => import('./pages/leagues/leagues').then(m => m.Leagues)
+        path: 'teams',
+        loadComponent: () => import('./pages/teams/teams').then(m => m.Teams)
     }
+  
 ];

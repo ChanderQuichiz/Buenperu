@@ -1,21 +1,20 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
-import { DialogModule } from 'primeng/dialog';
-import { InputTextModule } from 'primeng/inputtext';
-import { Select } from 'primeng/select';
-import { DatePicker } from 'primeng/datepicker';
+import { InputText } from "primeng/inputtext";
+import { SelectModule } from 'primeng/select';
 
 @Component({
-  selector: 'app-teams',
-  imports: [CommonModule, ButtonModule, DialogModule, InputTextModule, Select, DatePicker],
-  templateUrl: './teams.html',
-  styleUrl: './teams.css',
+  selector: 'app-settings',
+  imports: [InputText, FormsModule, SelectModule, ButtonModule],
+  templateUrl: './settings.html',
+  styleUrl: './settings.css',
 })
-export class Teams {
-  visible: boolean = false;
-  
-  distrities: string[] = [
+export class Settings implements OnInit {
+selectedDistrict: string = '';
+distrities: string[] = [];
+ngOnInit(): void {
+  this.distrities = [
   "Ancón",
   "Ate",
   "Barranco",
@@ -33,7 +32,7 @@ export class Teams {
   "Lima",
   "Lince",
   "Los Olivos",
-  "Lurigancho-Chosica",
+  "Lurigancho",
   "Lurín",
   "Magdalena del Mar",
   "Miraflores",
@@ -59,17 +58,6 @@ export class Teams {
   "Surquillo",
   "Villa El Salvador",
   "Villa María del Triunfo"
-]
-
-  writeRequest(event: Event):void {
-
-  }
-    sportTypes : string[] = [
-    "Soccer",
-    "Basketball",
-    "Volleyball"
-  ];
-  showDialog() {
-    this.visible = true;
-  }
+];
+}
 }
