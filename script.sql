@@ -7,8 +7,9 @@ CREATE TABLE accounts (
     last_name VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
+    district VARCHAR(50),
     phone_number VARCHAR(10) NOT NULL,
-    role ENUM('admin','organizer','referee') NOT NULL
+    role ENUM('admin','organizer','payroll') NOT NULL
 );
 
 CREATE TABLE events (
@@ -55,26 +56,18 @@ CREATE TABLE events_teams (
     UNIQUE (event_id, team_id)
 );
 
-CREATE TABLE matchs (
+CREATE TABLE matches (
     match_id INT AUTO_INCREMENT PRIMARY KEY,
     event_id INT NOT NULL,
     match_date DATETIME NOT NULL,
     location VARCHAR(150),
     status ENUM('scheduled','in_progress','completed','canceled') DEFAULT 'scheduled',
-    winner_team_id INT
-    referee_id INT,
+    referee VARCHAR(80) NOT NULL,
+    event_team_one_id INT NOT NULL,
+    event_team_two_id INT NOT NULL,
+    team_one_score INT DEFAULT 0,
+    team_two_score INT DEFAULT 0,
     FOREIGN KEY (event_id) REFERENCES events(event_id),
-    FOREIGN KEY (winner_team_id) REFERENCES teams(team_id),
-    FOREIGN KEY (next_match_id) REFERENCES matchs(match_id),
-    FOREIGN KEY (referee_id) REFERENCES accounts(account_id)
-);
-
-CREATE TABLE matchs_teams (
-    match_team_id INT AUTO_INCREMENT PRIMARY KEY,
-    match_id INT NOT NULL,
-    team_id INT NOT NULL,
-    score INT DEFAULT 0,
-    FOREIGN KEY (match_id) REFERENCES matchs(match_id),
-    FOREIGN KEY (team_id) REFERENCES teams(team_id),
-    UNIQUE (match_id, team_id)
+    FOREIGN KEY (event_team_one_id) REFERENCES events_teams(event_team_id),
+    FOREIGN KEY (event_team_two_id) REFERENCES events_teams(event_team_id)
 );
