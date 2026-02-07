@@ -12,10 +12,10 @@
 			<_id type="a">GUID 5c87f91d-ceb6-46fb-aab7-a26bb93f83c7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Requisitos</_name>
-			<_modifiedTimeWeak type="a">7.28.2021::10:31:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::10:32:46</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.28.2021::5:31:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.28.2021::5:31:18</_modifiedTime>
 			<_lastID type="a">26</_lastID>
-			<weakCGTime type="a">7.28.2021::10:31:0</weakCGTime>
+			<weakCGTime type="a">7.28.2021::5:31:18</weakCGTime>
 			<strongCGTime type="a">7.28.2021::8:0:19</strongCGTime>
 			<_defaultComposite type="s">GUID 849e8d17-2949-4881-bb42-028704fbd908</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -91,8 +91,8 @@
 			<_id type="a">GUID b6842250-1ff0-4ad6-a534-49d21f8de9b9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Registrar equipo</_name>
-			<_modifiedTimeWeak type="a">7.28.2021::6:41:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::6:41:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.28.2021::5:31:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.28.2021::5:31:18</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<AggregatesList type="e">
 				<value>GUID 192c8f4f-6a05-4a52-867c-258d24b82b8f</value>
@@ -102,7 +102,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 192c8f4f-6a05-4a52-867c-258d24b82b8f</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">inscribir equipo</_name>
+			<_name type="a">mantener participantes</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -116,13 +116,13 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">7.28.2021::8:12:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::5:34:11</_modifiedTime>
+			<_modifiedTime type="a">7.28.2021::5:31:18</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">inscribir equipo</_hname>
+					<_hname type="a">mantener participantes</_hname>
 					<_hid type="a">GUID 0e66f825-bad1-48ef-99a6-9ae31cbaab06</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -171,10 +171,6 @@
 			<_id type="a">GUID 6f111cae-a377-4175-8dae-232d98951007</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Registrar partido</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<_modifiedTimeWeak type="a">7.28.2021::7:48:43</_modifiedTimeWeak>
 			<_modifiedTime type="a">7.28.2021::7:48:43</_modifiedTime>
 			<_lastID type="a">2</_lastID>
@@ -457,8 +453,8 @@
 			<_id type="a">GUID 4c326c9c-4b10-4ef5-8065-ef9b73e98796</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">registrar cuenta</_name>
-			<_modifiedTimeWeak type="a">7.28.2021::5:6:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::5:6:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.28.2021::5:26:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.28.2021::5:26:48</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<AggregatesList type="e">
 				<value>GUID 0b710dc5-2aa7-4568-9e15-d9148795fa1e</value>
@@ -467,7 +463,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 0b710dc5-2aa7-4568-9e15-d9148795fa1e</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">envia solicitud registro</_name>
+			<_name type="a">envia solicitud permiso</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -481,13 +477,13 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">7.28.2021::6:31:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::5:8:3</_modifiedTime>
+			<_modifiedTime type="a">7.28.2021::5:26:48</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">envia solicitud registro</_hname>
+					<_hname type="a">envia solicitud permiso</_hname>
 					<_hid type="a">GUID 639ea913-7558-4500-9ea5-249ffeb58892</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -502,8 +498,8 @@
 			<_id type="a">GUID b63bb5f3-ef20-4d47-80e4-327f85e7a7a2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">inscribir equipo</_name>
-			<_modifiedTimeWeak type="a">7.28.2021::6:31:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::6:31:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.28.2021::5:31:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.28.2021::5:31:18</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<AggregatesList type="e">
 				<value>GUID b7bd53dc-13cf-48c6-8078-6bc11af87792</value>
@@ -512,7 +508,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID b7bd53dc-13cf-48c6-8078-6bc11af87792</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">inscribir equipo</_name>
+			<_name type="a">mantener participantes</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -526,13 +522,13 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">7.28.2021::6:31:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::6:33:55</_modifiedTime>
+			<_modifiedTime type="a">7.28.2021::5:31:18</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">inscribir equipo</_hname>
+					<_hname type="a">mantener participantes</_hname>
 					<_hid type="a">GUID 0e66f825-bad1-48ef-99a6-9ae31cbaab06</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -918,8 +914,8 @@
 			</_properties>
 			<_name type="a">Diagrama general de requisitos</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::10:31:0</_modifiedTime>
-			<_lastModifiedTime type="a">7.28.2021::10:31:0</_lastModifiedTime>
+			<_modifiedTime type="a">7.28.2021::5:31:18</_modifiedTime>
+			<_lastModifiedTime type="a">7.28.2021::5:31:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2705,14 +2701,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">envia solicitud registro</_hname>
+					<_hname type="a">envia solicitud permiso</_hname>
 					<_hid type="a">GUID 639ea913-7558-4500-9ea5-249ffeb58892</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 2cb1a3d2-dd48-4316-ab7e-f18460486b0f</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::envia solicitud registro</m_str>
+					<m_str type="a">MCU::envia solicitud permiso</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2758,14 +2754,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">inscribir equipo</_hname>
+					<_hname type="a">mantener participantes</_hname>
 					<_hid type="a">GUID 0e66f825-bad1-48ef-99a6-9ae31cbaab06</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 2cb1a3d2-dd48-4316-ab7e-f18460486b0f</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::inscribir equipo</m_str>
+					<m_str type="a">MCU::mantener participantes</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">

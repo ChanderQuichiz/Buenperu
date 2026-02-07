@@ -12,7 +12,7 @@
 			<_id type="a">GUID 98616e9c-eb76-433d-9c54-0cdb5e1d8a82</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">seguridad</_name>
-			<_modifiedTimeWeak type="a">7.28.2021::6:56:10</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.28.2021::6:11:33</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,10 +22,10 @@
 					<_hid type="a">GUID 0e9d1006-d34b-4507-bda9-0c410efb11f8</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">7.28.2021::7:28:20</_modifiedTime>
+			<_modifiedTime type="a">7.28.2021::6:11:33</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">7.28.2021::6:56:10</weakCGTime>
-			<strongCGTime type="a">7.28.2021::5:11:32</strongCGTime>
+			<weakCGTime type="a">7.28.2021::6:11:33</weakCGTime>
+			<strongCGTime type="a">7.28.2021::5:32:41</strongCGTime>
 			<_defaultComposite type="s">GUID 2f0b9cd4-6819-4a8c-9ed6-e1802be4b58f</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
@@ -403,7 +403,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">acceder sistema</_name>
 			<_modifiedTimeWeak type="a">7.28.2021::8:0:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::6:50:24</_modifiedTime>
+			<_modifiedTime type="a">7.28.2021::6:11:33</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<weakCGTime type="a">7.28.2021::8:0:14</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -612,8 +612,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::7:3:29</_modifiedTime>
-			<_lastModifiedTime type="a">7.28.2021::7:3:29</_lastModifiedTime>
+			<_modifiedTime type="a">7.28.2021::6:11:33</_modifiedTime>
+			<_lastModifiedTime type="a">7.28.2021::6:11:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -677,9 +677,9 @@
 				<value>GUID b2210db9-e987-41ad-b74a-49af8db7e638</value>
 				<value>GUID 3956d518-0dd5-4e09-9753-221ad39c9119</value>
 				<value>GUID fe41a44d-926a-4514-bfa6-cb2530338bad</value>
-				<value>GUID 3dc75649-81dd-4ec3-a00f-276892fe412d</value>
-				<value>GUID fd6fd2d8-de5c-4963-9240-ec5ebdad1709</value>
-				<value>GUID 394aac97-63dc-4dec-a2db-69455a22d679</value>
+				<value>GUID 3c8f71f2-997b-4f06-bc46-b57893e25b04</value>
+				<value>GUID f8b19a17-fc56-4075-b7cf-f2e6276edb63</value>
+				<value>GUID 4e512778-3974-49ba-96cf-c9220d8be6f3</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -838,7 +838,7 @@
 			<m_pImageViewData type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">OMGEElement</_hm2Class>
-					<_hid type="a">GUID 3dc75649-81dd-4ec3-a00f-276892fe412d</_hid>
+					<_hid type="a">GUID 3c8f71f2-997b-4f06-bc46-b57893e25b04</_hid>
 				</IHandle>
 			</m_pImageViewData>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
@@ -960,7 +960,6 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsUsuario</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -977,7 +976,6 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCI_Acceso</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1109,7 +1107,7 @@
 			<m_pImageViewData type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">OMGEElement</_hm2Class>
-					<_hid type="a">GUID fd6fd2d8-de5c-4963-9240-ec5ebdad1709</_hid>
+					<_hid type="a">GUID f8b19a17-fc56-4075-b7cf-f2e6276edb63</_hid>
 				</IHandle>
 			</m_pImageViewData>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
@@ -1200,7 +1198,7 @@
 			<m_pImageViewData type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">OMGEElement</_hm2Class>
-					<_hid type="a">GUID 394aac97-63dc-4dec-a2db-69455a22d679</_hid>
+					<_hid type="a">GUID 4e512778-3974-49ba-96cf-c9220d8be6f3</_hid>
 				</IHandle>
 			</m_pImageViewData>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
@@ -1321,7 +1319,6 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCI_Acceso</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1338,7 +1335,6 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCC_Usuario</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1500,7 +1496,6 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCC_Usuario</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1517,7 +1512,6 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsUsuario</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1601,7 +1595,7 @@
 			<m_specificType type="a">symmetric_type</m_specificType>
 		</CGIAssociationEnd>
 		<CGIImageData type="e">
-			<_id type="a">GUID 3dc75649-81dd-4ec3-a00f-276892fe412d</_id>
+			<_id type="a">GUID 3c8f71f2-997b-4f06-bc46-b57893e25b04</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -1632,7 +1626,7 @@
 			<m_fileModifiedTime type="a">8.11.2021::3:46:4</m_fileModifiedTime>
 		</CGIImageData>
 		<CGIImageData type="e">
-			<_id type="a">GUID fd6fd2d8-de5c-4963-9240-ec5ebdad1709</_id>
+			<_id type="a">GUID f8b19a17-fc56-4075-b7cf-f2e6276edb63</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -1663,7 +1657,7 @@
 			<m_fileModifiedTime type="a">8.11.2021::3:46:54</m_fileModifiedTime>
 		</CGIImageData>
 		<CGIImageData type="e">
-			<_id type="a">GUID 394aac97-63dc-4dec-a2db-69455a22d679</_id>
+			<_id type="a">GUID 4e512778-3974-49ba-96cf-c9220d8be6f3</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">

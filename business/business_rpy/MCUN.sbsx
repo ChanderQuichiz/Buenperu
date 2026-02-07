@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.28.2021::7:42:25</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.28.2021::6:11:33</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -33,10 +33,10 @@
 					<_hid type="a">GUID 301a52b5-ba84-4398-b1bf-7d4bd082413e</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">7.28.2021::7:52:49</_modifiedTime>
+			<_modifiedTime type="a">7.28.2021::6:11:33</_modifiedTime>
 			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">7.28.2021::7:42:25</weakCGTime>
-			<strongCGTime type="a">7.28.2021::7:42:24</strongCGTime>
+			<weakCGTime type="a">7.28.2021::7:38:4</weakCGTime>
+			<strongCGTime type="a">7.28.2021::7:38:4</strongCGTime>
 			<_defaultComposite type="s">GUID 00e1e460-ccf0-4b2c-af0c-9e2ebf84f939</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
@@ -206,8 +206,8 @@
 			</_properties>
 			<_name type="a">Diagrama de Casos de Uso de Negocio</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::7:42:25</_modifiedTime>
-			<_lastModifiedTime type="a">7.28.2021::7:42:25</_lastModifiedTime>
+			<_modifiedTime type="a">7.28.2021::6:11:33</_modifiedTime>
+			<_lastModifiedTime type="a">7.28.2021::6:11:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1203,8 +1203,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::7:42:25</_modifiedTime>
-			<_lastModifiedTime type="a">7.28.2021::7:42:25</_lastModifiedTime>
+			<_modifiedTime type="a">7.28.2021::6:11:33</_modifiedTime>
+			<_lastModifiedTime type="a">7.28.2021::6:11:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1751,7 +1751,7 @@
 			<m_pParent type="s">GUID cd1c9fb3-5eaa-496d-9f32-4be855fbc73d</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">class_10</m_str>
+					<m_str type="a">Difundir el deporte facilitando el acceso a la informacion de los eventos al publico de manera abierta, se espera que el crecimiento sea de un 31%25</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2096,7 +2096,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.28.2021::6:49:53</_modifiedTimeWeak>
 			<_modifiedTime type="a">7.28.2021::6:49:53</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">7.28.2021::6:49:53</weakCGTime>
@@ -2106,14 +2106,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
