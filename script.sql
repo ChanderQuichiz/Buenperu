@@ -8,7 +8,7 @@ CREATE TABLE accounts (
     email VARCHAR(150) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     district VARCHAR(50),
-    phone_number VARCHAR(15) NOT NULL,
+    phone_number VARCHAR(15),
     role ENUM('admin','organizer','payroll') NOT NULL,
     status ENUM('active','inactive','banned') DEFAULT 'active',
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,

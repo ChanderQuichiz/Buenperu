@@ -37,8 +37,6 @@ public class Team {
     @Column(name = "district", length = 100)
     private String district;
 
-    @Column(name = "category", length = 50)
-    private String category;
 
     @Column(name = "icon_src", length = 255)
     private String iconSrc;

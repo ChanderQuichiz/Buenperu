@@ -29,54 +29,24 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
 						<_theDiagram type="r">
 							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hname type="a">Estructura del proyecto</_hname>
-								<_hid type="a">GUID 301a52b5-ba84-4398-b1bf-7d4bd082413e</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1265 734 </_DownRight>
-						<m_nDiagramIndex type="a">21</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
 								<_hfilename type="a">.\business_rpy\MA.sbsx</_hfilename>
 								<_hsubsystem type="a">MA</_hsubsystem>
-								<_hname type="a">Arquitectura de analisis</_hname>
-								<_hid type="a">GUID 0e9d1006-d34b-4507-bda9-0c410efb11f8</_hid>
+								<_hname type="a">DC_MantenerPartido</_hname>
+								<_hid type="a">GUID 7731c483-ec91-4871-8037-da274006a614</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 10 </_UpLeft>
-						<_DownRight type="a">1201 707 </_DownRight>
-						<m_nDiagramIndex type="a">15</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<_UpLeft type="a">0 30 </_UpLeft>
+						<_DownRight type="a">845 727 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
@@ -91,7 +61,7 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
@@ -106,72 +76,7 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">-44 91 </_UpLeft>
-						<_DownRight type="a">1218 824 </_DownRight>
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\MA.sbsx</_hfilename>
-								<_hsubsystem type="a">MA</_hsubsystem>
-								<_hname type="a">Modelo Conceptual en MA</_hname>
-								<_hid type="a">GUID 3e117d09-585d-4d3e-8e7c-85c9ae53ca4f</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 3 </_UpLeft>
-						<_DownRight type="a">1201 700 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\equipos.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::equipos</_hsubsystem>
-								<_hclass type="a">consultar equipo</_hclass>
-								<_hname type="a">DCA_ConsultarEquipo</_hname>
-								<_hid type="a">GUID a68c1085-494f-4be5-903f-eef482704da0</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
+						<_DownRight type="a">844 824 </_DownRight>
 						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -188,7 +93,7 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
@@ -196,15 +101,14 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\equipos.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::equipos</_hsubsystem>
-								<_hclass type="a">inscribir equipo</_hclass>
-								<_hname type="a">DCA_InscibirEquipo</_hname>
-								<_hid type="a">GUID 3444b0da-5f37-4233-9af8-0467600f0a42</_hid>
+								<_hfilename type="a">.\business_rpy\MA.sbsx</_hfilename>
+								<_hsubsystem type="a">MA</_hsubsystem>
+								<_hname type="a">Modelo Conceptual en MA</_hname>
+								<_hid type="a">GUID 3e117d09-585d-4d3e-8e7c-85c9ae53ca4f</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
+						<_UpLeft type="a">0 3 </_UpLeft>
+						<_DownRight type="a">845 700 </_DownRight>
 						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -221,7 +125,7 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
@@ -231,277 +135,13 @@
 								<_hm2Class type="a">IDiagram</_hm2Class>
 								<_hfilename type="a">.\business_rpy\equipos.sbsx</_hfilename>
 								<_hsubsystem type="a">MA::equipos</_hsubsystem>
-								<_hclass type="a">mantener equipo</_hclass>
-								<_hname type="a">DCA_RegistrarEquipo</_hname>
-								<_hid type="a">GUID 8ea0bdde-9707-4a88-a70a-b27d663e8000</_hid>
+								<_hclass type="a">consultar equipo</_hclass>
+								<_hname type="a">DCA_ConsultarEquipo</_hname>
+								<_hid type="a">GUID a68c1085-494f-4be5-903f-eef482704da0</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
-						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
-								<_hclass type="a">Mantener evento</_hclass>
-								<_hname type="a">DCA_MantenerEvento</_hname>
-								<_hid type="a">GUID 665b43e0-68e0-4003-945d-283846fa6ec5</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 10 </_UpLeft>
-						<_DownRight type="a">1201 707 </_DownRight>
-						<m_nDiagramIndex type="a">13</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
-								<_hclass type="a">consultar eventos</_hclass>
-								<_hname type="a">DCA_ConsultarEventos</_hname>
-								<_hid type="a">GUID 8c5e26b3-28e5-4021-84ae-fc9e4fa91f1d</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
-						<m_nDiagramIndex type="a">9</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
-								<_hclass type="a">consultar participantes</_hclass>
-								<_hname type="a">DCA_ConsultarParticipantes</_hname>
-								<_hid type="a">GUID e362dcc9-8423-4485-b3af-dc59f193683b</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
-								<_hclass type="a">mantener participantes</_hclass>
-								<_hname type="a">DCA_MantenerParticipantes</_hname>
-								<_hid type="a">GUID bde77e2f-7636-413f-9258-f67c45c5800e</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
-								<_hclass type="a">mantener partidos</_hclass>
-								<_hname type="a">DCA_MantenerPartidos</_hname>
-								<_hid type="a">GUID 02f097ca-17cc-41e7-ac1d-ce425874c6f9</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\seguridad.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::seguridad</_hsubsystem>
-								<_hclass type="a">acceder sistema</_hclass>
-								<_hname type="a">DCA_AccederSistema</_hname>
-								<_hid type="a">GUID e67ca4c1-bb4a-4851-b189-bb3f0fb147ae</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
-						<m_nDiagramIndex type="a">12</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\solicitud.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::solicitud</_hsubsystem>
-								<_hclass type="a">envia solicitud registro</_hclass>
-								<_hname type="a">DCA_SolicitudRegistro</_hname>
-								<_hid type="a">GUID 991afdde-f22b-4bba-ab0c-f596575d6bc9</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
-						<m_nDiagramIndex type="a">11</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\solicitud.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::solicitud</_hsubsystem>
-								<_hclass type="a">validar solicitud de registro</_hclass>
-								<_hname type="a">DCA_ValidarSolicitud</_hname>
-								<_hid type="a">GUID 7f89e48e-8c2a-4002-86a6-a1bed8155ec1</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
+						<_DownRight type="a">845 697 </_DownRight>
 						<m_nDiagramIndex type="a">10</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -518,7 +158,7 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
@@ -526,15 +166,114 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\usuario_1.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::usuario</_hsubsystem>
-								<_hclass type="a">consultar usuario</_hclass>
-								<_hname type="a">DCA_ConsultarUsuario</_hname>
-								<_hid type="a">GUID 3b132a12-c70a-4927-8f6e-06270d1ffae0</_hid>
+								<_hfilename type="a">.\business_rpy\equipos.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::equipos</_hsubsystem>
+								<_hclass type="a">inscribir equipo</_hclass>
+								<_hname type="a">DCA_InscibirEquipo</_hname>
+								<_hid type="a">GUID 3444b0da-5f37-4233-9af8-0467600f0a42</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1201 697 </_DownRight>
+						<_DownRight type="a">845 697 </_DownRight>
+						<m_nDiagramIndex type="a">9</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+								<m_nLeft type="a">5</m_nLeft>
+								<m_nTop type="a">35</m_nTop>
+								<m_nRight type="a">880</m_nRight>
+								<m_nBottom type="a">799</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\business_rpy\equipos.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::equipos</_hsubsystem>
+								<_hclass type="a">mantener equipo</_hclass>
+								<_hname type="a">DCA_RegistrarEquipo</_hname>
+								<_hid type="a">GUID 8ea0bdde-9707-4a88-a70a-b27d663e8000</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">845 697 </_DownRight>
+						<m_nDiagramIndex type="a">11</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+								<m_nLeft type="a">5</m_nLeft>
+								<m_nTop type="a">35</m_nTop>
+								<m_nRight type="a">880</m_nRight>
+								<m_nBottom type="a">799</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
+								<_hclass type="a">consultar eventos</_hclass>
+								<_hname type="a">DCA_ConsultarEventos</_hname>
+								<_hid type="a">GUID 8c5e26b3-28e5-4021-84ae-fc9e4fa91f1d</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">845 697 </_DownRight>
+						<m_nDiagramIndex type="a">12</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+								<m_nLeft type="a">5</m_nLeft>
+								<m_nTop type="a">35</m_nTop>
+								<m_nRight type="a">880</m_nRight>
+								<m_nBottom type="a">799</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
+								<_hclass type="a">consultar participantes</_hclass>
+								<_hname type="a">DCA_ConsultarParticipantes</_hname>
+								<_hid type="a">GUID e362dcc9-8423-4485-b3af-dc59f193683b</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">845 697 </_DownRight>
 						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -551,7 +290,7 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
@@ -559,15 +298,16 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\MAN.sbsx</_hfilename>
-								<_hsubsystem type="a">MAN</_hsubsystem>
-								<_hname type="a">DIagrama de Clases de Negocio</_hname>
-								<_hid type="a">GUID d3861c2a-5a4a-4a81-a00f-b156e223d6c4</_hid>
+								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
+								<_hclass type="a">mantener participantes</_hclass>
+								<_hname type="a">DCA_MantenerParticipantes</_hname>
+								<_hid type="a">GUID bde77e2f-7636-413f-9258-f67c45c5800e</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 10 </_UpLeft>
-						<_DownRight type="a">1265 744 </_DownRight>
-						<m_nDiagramIndex type="a">18</m_nDiagramIndex>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">845 697 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -583,24 +323,24 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
 						<_theDiagram type="r">
 							<IHandle type="e">
-								<_hm2Class type="a">IActivityDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\MAN.sbsx</_hfilename>
-								<_hsubsystem type="a">MAN</_hsubsystem>
-								<_hclass type="a">TopLevel</_hclass>
-								<_hname type="a">ActivityDiagram</_hname>
-								<_hid type="a">GUID e017825c-89ed-4c6e-87e5-f12fe49e2722</_hid>
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
+								<_hclass type="a">mantener partidos</_hclass>
+								<_hname type="a">DCA_MantenerPartidos</_hname>
+								<_hid type="a">GUID 02f097ca-17cc-41e7-ac1d-ce425874c6f9</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1686 951 </_DownRight>
-						<m_nDiagramIndex type="a">17</m_nDiagramIndex>
+						<_DownRight type="a">845 697 </_DownRight>
+						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -616,7 +356,73 @@
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
 								<m_nLeft type="a">5</m_nLeft>
 								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
+								<m_nRight type="a">880</m_nRight>
+								<m_nBottom type="a">799</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\business_rpy\organizacion.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::organizacion</_hsubsystem>
+								<_hclass type="a">mantener partidos</_hclass>
+								<_hname type="a">DS_MantenerPartido</_hname>
+								<_hid type="a">GUID 23b29871-13c1-4407-a697-f46ed7ac4bc6</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">845 677 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+								<m_nLeft type="a">5</m_nLeft>
+								<m_nTop type="a">35</m_nTop>
+								<m_nRight type="a">880</m_nRight>
+								<m_nBottom type="a">799</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\business_rpy\usuario_1.sbsx</_hfilename>
+								<_hsubsystem type="a">MA::usuario</_hsubsystem>
+								<_hclass type="a">consultar usuario</_hclass>
+								<_hname type="a">DCA_ConsultarUsuario</_hname>
+								<_hid type="a">GUID 3b132a12-c70a-4927-8f6e-06270d1ffae0</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">845 697 </_DownRight>
+						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+								<m_nLeft type="a">5</m_nLeft>
+								<m_nTop type="a">35</m_nTop>
+								<m_nRight type="a">880</m_nRight>
 								<m_nBottom type="a">799</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
@@ -631,134 +437,8 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">-4 103 </_UpLeft>
-						<_DownRight type="a">1197 800 </_DownRight>
-						<m_nDiagramIndex type="a">14</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\MCUN.sbsx</_hfilename>
-								<_hsubsystem type="a">MCUN</_hsubsystem>
-								<_hname type="a">Diagrama CUN vs ON</_hname>
-								<_hid type="a">GUID c357a4b3-3644-4c3c-a8b5-04b210dca7c8</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1265 734 </_DownRight>
-						<m_nDiagramIndex type="a">19</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IUCDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\MCUN.sbsx</_hfilename>
-								<_hsubsystem type="a">MCUN</_hsubsystem>
-								<_hname type="a">Diagrama de Casos de Uso de Negocio</_hname>
-								<_hid type="a">GUID 2d0f7253-73c9-4cd2-8373-5cc197f337c8</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1265 734 </_DownRight>
-						<m_nDiagramIndex type="a">20</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\business_rpy\Requisitos.sbsx</_hfilename>
-								<_hsubsystem type="a">Requisitos</_hsubsystem>
-								<_hname type="a">Diagrama general de requisitos</_hname>
-								<_hid type="a">GUID 60be748b-4a72-46a4-8e37-a1f3a60e642a</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 10 </_UpLeft>
-						<_DownRight type="a">1601 939 </_DownRight>
-						<m_nDiagramIndex type="a">16</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
-								<m_nLeft type="a">5</m_nLeft>
-								<m_nTop type="a">35</m_nTop>
-								<m_nRight type="a">1236</m_nRight>
-								<m_nBottom type="a">799</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IStructureDiagram</_hm2Class>
-								<_hname type="a">Structure1</_hname>
-								<_hid type="a">GUID 7ab0ed02-5b4c-4e61-8908-6014a0d7d69a</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">3741 2171 </_DownRight>
-						<m_nDiagramIndex type="a">22</m_nDiagramIndex>
+						<_DownRight type="a">841 800 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -783,7 +463,19 @@
 			<favoritesItem type="e">
 				<generation type="a">0</generation>
 				<name type="a">Favorites</name>
-				<idOrFolder type="a">folder</idOrFolder>
+				<idOrFolder type="a">folder-expanded</idOrFolder>
+			</favoritesItem>
+			
+			<favoritesItem type="e">
+				<generation type="a">1</generation>
+				<name type="a">DC_MantenerPartido</name>
+				<idOrFolder type="a">#startHnd# INObjectHandle 
+	- _m2Class = &quot;ICollaborationDiagram&quot;#hndSem#
+	- _filename = &quot;C:\\Users\\I202412784\\Documents\\Buenperu\\business\\business_rpy\\MA.sbsx&quot;#hndSem#
+	- _subsystem = &quot;MA&quot;#hndSem#
+	- _name = &quot;DC_MantenerPartido&quot;#hndSem#
+	- _id = GUID 7731c483-ec91-4871-8037-da274006a614#hndSem#
+#endHnd#</idOrFolder>
 			</favoritesItem>
 			
 		</CGEMdiWorkspace>

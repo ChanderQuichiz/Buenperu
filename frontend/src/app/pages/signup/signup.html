@@ -9,8 +9,8 @@
 -->
 
   <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
-    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-  
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm flex items-center flex-col ">
+      <img src="logo.png" class="w-40" alt="">
       <h2 class="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900"> Registration application</h2>
     </div>
 
@@ -45,7 +45,10 @@
                 <div>
                   <label for="role" class="block text-sm/6 font-medium text-gray-900">Role</label>
  
-                  <p-select [options]="Roles" [(ngModel)]="selectedRole"  placeholder="Select a Role" class="w-full" />
+                  <p-select [options]="Roles" [(ngModel)]="selectedRole" (onChange)=" this.signup.set(({
+      ...this.signup(),
+      role: selectedRole
+    }))"  placeholder="Select a Role" class="w-full" />
                 </div>
                            
 
@@ -68,28 +71,7 @@
         </div>
         </div>
             
-              @if(selectedRole=='organizer'){
-   <div class="flex flex-col gap-1">
-            <label class="block text-sm/6 font-medium text-gray-900" for="">Election record</label>
-<div class="card flex flex-wrap gap-6 items-center justify-between">
-            <p-fileupload #fu mode="basic" chooseLabel="Choose" chooseIcon="pi pi-upload" name="demo[]" url="https://www.primefaces.org/cdn/api/upload.php" accept="image/*" maxFileSize="1000000"  />
-            <p-button label="Upload" (onClick)="fu.upload()" severity="secondary" />
-        </div>
-          </div>
-              }
-       
-   <div>
-    @if(selectedRole=='payroll'){
-                <div class="flex items-center justify-between">
-            <label for="email" class="block text-sm/6 font-medium text-gray-900">Organizer's email address</label>
-
-          </div>
-          <div class="mt-2">
-            <input (change)="writeSignup($event)" id="email" type="email" name="email" required autocomplete="current-email" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
-          </div>
-    }
-
-        </div>
+   
         <div>
           <button class="flex w-full justify-center rounded-md bg-black px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-neutral-700
            focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 cursor-pointer" (click)="sendSignup()">Sign up</button>

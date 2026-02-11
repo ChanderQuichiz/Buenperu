@@ -42,8 +42,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">business</_name>
-			<_modifiedTimeWeak type="a">7.28.2021::6:11:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::6:11:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.28.2021::6:36:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.28.2021::7:1:2</_modifiedTime>
 			<_lastID type="a">22</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -365,8 +365,8 @@
 			</_properties>
 			<_name type="a">Estructura del proyecto</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.28.2021::6:11:43</_modifiedTime>
-			<_lastModifiedTime type="a">7.28.2021::6:11:43</_lastModifiedTime>
+			<_modifiedTime type="a">7.28.2021::6:50:11</_modifiedTime>
+			<_lastModifiedTime type="a">7.28.2021::6:50:11</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -429,9 +429,9 @@
 				<value>GUID 9ef2535f-1fb0-460e-9172-9ca44451d916</value>
 				<value>GUID 3e9509e6-d5d1-41e2-9dc3-2708c0e8af7f</value>
 				<value>GUID ec8f7717-06b8-4ca9-a7b0-3b2d7172e31e</value>
-				<value>GUID ed1bd791-2ba7-449b-b474-61fc169ceffe</value>
-				<value>GUID 4425daaa-c29a-4e51-96b5-e8843bd095fa</value>
-				<value>GUID ba387313-510c-4836-b1bc-2ed48b07453c</value>
+				<value>GUID 32f13000-707d-4dbd-818e-f67902a40880</value>
+				<value>GUID b0f6e845-2c8a-464e-a081-d4614fb9f08f</value>
+				<value>GUID b200f7b8-6e9f-4803-a1a6-9cadb33f2e15</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -545,7 +545,7 @@
 					<_hm2Class type="a">OMGEElement</_hm2Class>
 					<_hsubsystem type="a">Estructura del proyecto</_hsubsystem>
 					<_hname type="a">CGIImageData</_hname>
-					<_hid type="a">GUID ed1bd791-2ba7-449b-b474-61fc169ceffe</_hid>
+					<_hid type="a">GUID 32f13000-707d-4dbd-818e-f67902a40880</_hid>
 				</IHandle>
 			</m_pImageViewData>
 			<m_polygon type="a">4 0 0  0 1151  1216 1151  1216 0  </m_polygon>
@@ -604,7 +604,7 @@
 					<_hm2Class type="a">OMGEElement</_hm2Class>
 					<_hsubsystem type="a">Estructura del proyecto</_hsubsystem>
 					<_hname type="a">CGIImageData</_hname>
-					<_hid type="a">GUID 4425daaa-c29a-4e51-96b5-e8843bd095fa</_hid>
+					<_hid type="a">GUID b0f6e845-2c8a-464e-a081-d4614fb9f08f</_hid>
 				</IHandle>
 			</m_pImageViewData>
 			<m_polygon type="a">4 0 0  0 1151  1216 1151  1216 0  </m_polygon>
@@ -714,7 +714,7 @@
 					<_hm2Class type="a">OMGEElement</_hm2Class>
 					<_hsubsystem type="a">Estructura del proyecto</_hsubsystem>
 					<_hname type="a">CGIImageData</_hname>
-					<_hid type="a">GUID ba387313-510c-4836-b1bc-2ed48b07453c</_hid>
+					<_hid type="a">GUID b200f7b8-6e9f-4803-a1a6-9cadb33f2e15</_hid>
 				</IHandle>
 			</m_pImageViewData>
 			<m_polygon type="a">4 0 0  0 1151  1216 1151  1216 0  </m_polygon>
@@ -722,7 +722,7 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIPackage>
 		<CGIImageData type="e">
-			<_id type="a">GUID ed1bd791-2ba7-449b-b474-61fc169ceffe</_id>
+			<_id type="a">GUID 32f13000-707d-4dbd-818e-f67902a40880</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -753,7 +753,7 @@
 			<m_fileModifiedTime type="a">1.2.2021::8:13:42</m_fileModifiedTime>
 		</CGIImageData>
 		<CGIImageData type="e">
-			<_id type="a">GUID 4425daaa-c29a-4e51-96b5-e8843bd095fa</_id>
+			<_id type="a">GUID b0f6e845-2c8a-464e-a081-d4614fb9f08f</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -784,7 +784,7 @@
 			<m_fileModifiedTime type="a">1.2.2021::8:18:46</m_fileModifiedTime>
 		</CGIImageData>
 		<CGIImageData type="e">
-			<_id type="a">GUID ba387313-510c-4836-b1bc-2ed48b07453c</_id>
+			<_id type="a">GUID b200f7b8-6e9f-4803-a1a6-9cadb33f2e15</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">

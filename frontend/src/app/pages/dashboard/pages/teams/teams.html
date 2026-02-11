@@ -11,12 +11,12 @@
                    
                         <div class="grid grid-cols-2 gap-2">
            <div class="flex flex-col gap-4 mb-4">
-                            <label for="teamName" class="font-semibold w-32">Team Name</label>
-                            <input pInputText id="teamName" class="flex-auto" autocomplete="off" (change)="writeRequest($event)" />
+                            <label for="name" class="font-semibold w-32">Team Name</label>
+                            <input pInputText id="name" name="name" class="flex-auto" autocomplete="off" (input)="writeRequest($event)" />
                         </div>
    <div class="flex flex-col gap-4 mb-4">
                             <label for="iconSrc" class="font-semibold w-32">Icon Source</label>
-                            <input pInputText id="iconSrc" class="flex-auto" autocomplete="off" placeholder="http://example.jpg" (change)="writeRequest($event)" />
+                            <input pInputText id="iconSrc" name="iconSrc" class="flex-auto" autocomplete="off" placeholder="http://example.jpg" (input)="writeRequest($event)" />
                         </div>
                         </div>
              
@@ -24,12 +24,12 @@
 
                                                <div class="flex flex-col gap-4 mb-4">
                             <label for="district" class="font-semibold w-32">District</label>
-                            <p-select placeholder="select a District" [options]="distrities"/>
+                            <p-select placeholder="select a District" id="district" name="district" [(ngModel)]="selectedDistrict" (onChange)="this.teamform.set({...this.teamform(), district: selectedDistrict})" [options]="distrities"/>
                         </div>
 
                         <div class="flex flex-col gap-4 mb-4">
                             <label for="category" class="font-semibold w-32">Sport type</label>
-                            <p-select placeholder="select a Sport type" [options]="sportTypes"/>
+                            <p-select placeholder="select a Sport type" id="sportType" name="sportType" [(ngModel)]="selectedSport" (onChange)="this.teamform.set({...this.teamform(), sportType: selectedSport})" [options]="sportTypes"/>
                         </div>
                         </div>
 
@@ -37,8 +37,45 @@
             
                 <div class="flex justify-end gap-2">
                     <p-button label="Cancel" severity="secondary" (click)="visible = false" />
-                    <p-button label="Save" (click)="visible = false" />
+                    <p-button label="Save" (click)="visible = false; sendRequest()" />
                 </div>
             </p-dialog>
         </div>
 </div>
+
+
+
+
+
+ <p-table [value]="teams()" [tableStyle]="{ 'min-width': '60rem' }">
+                <ng-template #caption>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold">Teams</span>
+                        <p-button icon="pi pi-refresh" rounded raised />
+                    </div>
+                </ng-template>
+                <ng-template #header>
+                    <tr>
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>District</th>
+                                                <th>Active</th>
+
+                    </tr>
+                </ng-template>
+                <ng-template #body let-team>
+                    <tr>
+                        <td>{{ team.name }}</td>
+                        <td>
+                            <img [src]="team.iconSrc" [alt]="team.name" class="h-10 rounded" />
+                        </td>
+                        <td>{{ team.district }}</td>
+                    <td>{{ team.isActive }}</td>
+
+                    </tr>
+                </ng-template>
+                <ng-template #footer>
+                    <tr>
+                    </tr>
+                </ng-template>
+            </p-table>

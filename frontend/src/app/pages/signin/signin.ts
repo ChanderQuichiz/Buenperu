@@ -1,5 +1,6 @@
-import { Component, signal } from '@angular/core';
-import { RouterLink } from "@angular/router";
+import { Component, inject, signal } from '@angular/core';
+import { Router, RouterLink } from "@angular/router";
+import { AccountService } from '../../services/account-service';
 
 @Component({
   selector: 'app-signin',
@@ -8,6 +9,8 @@ import { RouterLink } from "@angular/router";
   styleUrl: './signin.css',
 })
 export class Signin {
+  router = inject(Router);
+  service = inject(AccountService);
   signin = signal({
     email: '',
     password: ''
@@ -21,5 +24,11 @@ export class Signin {
   }
   sendSignin() {
     console.log(this.signin());
+    this.service.signin(this.signin()).subscribe(
+      (response) => {
+        localStorage.setItem('account', JSON.stringify(response));
+this.router.navigate(['/dashboard']);
+      }
+    )
   }
 }

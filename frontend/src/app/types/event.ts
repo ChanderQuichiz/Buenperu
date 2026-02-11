@@ -1,5 +1,5 @@
 export type event = {
-    eventId: number,
+    eventId?: number,
     name: string,
     eventSrc: string,
     eventType: 'league' | 'tournament' | 'friendly',

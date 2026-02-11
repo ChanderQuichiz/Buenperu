@@ -6,7 +6,7 @@ import { Card } from "primeng/card";
 
 @Component({
   selector: 'app-tournaments',
-  imports: [Header, RecentMatches, Footer, Card],
+  imports: [Header, RecentMatches, Footer],
   templateUrl: './tournaments.html',
   styleUrl: './tournaments.css',
 })

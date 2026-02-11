@@ -1,8 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
 import { InputText } from "primeng/inputtext";
 import { SelectModule } from 'primeng/select';
+import { AccountService } from '../../../../services/account-service';
+import { account } from '../../../../types/account';
 
 @Component({
   selector: 'app-settings',
@@ -11,6 +13,7 @@ import { SelectModule } from 'primeng/select';
   styleUrl: './settings.css',
 })
 export class Settings implements OnInit {
+  service = inject(AccountService);
 selectedDistrict: string = '';
 distrities: string[] = [];
 ngOnInit(): void {
@@ -59,5 +62,23 @@ ngOnInit(): void {
   "Villa El Salvador",
   "Villa María del Triunfo"
 ];
+}
+
+account = signal<account>(JSON.parse(localStorage.getItem('account') || '{}'));
+accountform = signal<account>(this.account())
+writeForm(event: Event) {
+  const target = event.target as HTMLInputElement;
+  this.accountform.set({
+    ...this.accountform(),
+    [target.name]: target.value
+  });
+}
+sendForm() {
+  this.service.saveAccount(this.accountform()).subscribe(
+    (response) => {
+      console.log('Account updated successfully', response);
+      localStorage.setItem('account', JSON.stringify(response));
+    }
+  )
 }
 }

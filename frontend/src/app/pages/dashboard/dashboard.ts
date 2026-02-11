@@ -1,13 +1,14 @@
 import { ButtonModule } from 'primeng/button';
 import { DrawerModule } from 'primeng/drawer';
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { AvatarModule } from 'primeng/avatar';
 import { BadgeModule } from 'primeng/badge';
 import { Menu, MenuModule } from 'primeng/menu';
 import { RippleModule } from 'primeng/ripple';
 import { MenuItem } from 'primeng/api';
-import { RouterModule } from "@angular/router";
+import { Router, RouterModule } from "@angular/router";
 import { CommonModule } from '@angular/common';
+import { account } from '../../types/account';
 
 @Component({
   selector: 'app-dashboard',
@@ -16,10 +17,15 @@ import { CommonModule } from '@angular/common';
   styleUrl: './dashboard.css',
 })
 export class Dashboard implements OnInit {
+    router = inject(Router);
     visible: boolean = false;
 items: MenuItem[] | undefined;
+   account:account = JSON.parse(localStorage.getItem('account') || '{}');
 
     ngOnInit() {
+           if(this.account.firstName == null){
+    this.router.navigate(['/signin']);
+   }
         this.items = [
             {
                 separator: true
@@ -62,7 +68,10 @@ items: MenuItem[] | undefined;
                         label: 'Logout',
                         icon: 'pi pi-sign-out',
                         linkClass: '!text-red-500 dark:!text-red-400',
-                        routerLink: ['/']
+                        routerLink: ['/signin'],
+                        command: () => {
+                            localStorage.removeItem('account');
+                        }
                     }
                 ]
             },

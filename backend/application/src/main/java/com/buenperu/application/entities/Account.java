@@ -13,6 +13,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -58,7 +59,7 @@ public class Account {
     @Column(name = "district", length = 50)
     private String district;
 
-    @Column(name = "phone_number", length = 15, nullable = false)
+    @Column(name = "phone_number", length = 15)
     private String phoneNumber;
 
     @Enumerated(EnumType.STRING)

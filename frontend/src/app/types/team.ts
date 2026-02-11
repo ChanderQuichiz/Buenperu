@@ -1,8 +1,10 @@
+import { account } from "./account";
+
 export type team = {
-    teamId: number;
-    name: string;
+    teamId?: number;
+    name?: string;
     district?: string;
-    category?: string;
+    sportType?: string;
     iconSrc?: string;
-    accountId: number;
+    account: account;
 }

@@ -3,37 +3,37 @@
 <div class="grid sm:grid-cols-2 gap-4">
 <div class="flex flex-col gap-2">
 <label for="firstName">First name</label>
-<input type="text" pInputText/>
+<input value={{this.account().firstName}} id="firstName" name="firstName" type="text" pInputText (change)="writeForm($event)" />
 </div>
 
 <div class="flex flex-col gap-2">
 <label for="lastName">Last name</label>
-<input type="text" pInputText/>
+<input value={{this.account().lastName}} id="lastName" name="lastName" type="text" pInputText (change)="writeForm($event)" />
 </div>
 <div class="flex flex-col gap-2">
 <label for="phone">Phone</label>
-<input type="text" pInputText/>
+<input value={{this.account().phoneNumber}} id="phoneNumber" name="phoneNumber" type="text" pInputText (change)="writeForm($event)" />
 </div>
 <div class="flex flex-col gap-2">
 <label for="district">District</label>
-<p-select [options]="distrities" [(ngModel)]="selectedDistrict"  placeholder="Select a District" [style]="{width: '100%'}"/>
+<p-select [options]="distrities" [(ngModel)]="selectedDistrict" (onChange)="this.accountform.set({...this.accountform(), district: selectedDistrict})" placeholder="Select a District" [style]="{width: '100%'}"/>
 </div>
 
 <div class="flex flex-col gap-2">
 <label for="email">Email</label>
-<input type="text" pInputText/>
+<input value={{this.account().email}} id="email" name="email" type="text" pInputText (change)="writeForm($event)" />
 </div>
 
 <div class="flex flex-col gap-2">
 <label for="password">Password</label>
-<input type="text" pInputText/>
+<input id="password" name="password" type="password" pInputText (change)="writeForm($event)" />
 </div>
 
 
 
 
 </div>
-    <button class="max-w-[390px]" pButton>
+    <button class="max-w-97.5" pButton (click)="sendForm()">
                 <i class="pi pi-check" pButtonIcon></i>
                 <span pButtonLabel>Save</span>
             </button>
